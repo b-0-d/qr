@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 <body color=gray>
- iframe:<br><iframe src="https://epay.post.kz/test/arm?p=c_vars" width=400 height=400 />
-  <br><br>
  a:<br><a href="https://epay.post.kz/test/arm?p=c_vars">test</a>
-  <br><br>
+ 
+ <br><br>
+ <p id="id1"></p><br>
+ <script src="https://epay.post.kz/test/static/a/libs/jquery/jquery/dist/jquery.min.js"></script>
  ajax:<br><button onclick="$.ajax({url:'https://epay.post.kz/test/arm?p=data&t=c_rates', type:'GET',cache: false, success: function(t){$('#id1').text(t);} });">test</button>
- <p id="id1"></p>
-  <script src="https://epay.post.kz/test/static/a/libs/jquery/jquery/dist/jquery.min.js"></script>
+
+ <br><br>
+ iframe:<br><iframe src="https://epay.post.kz/test/arm?p=c_vars" width=400 height=400 />
+ 
 </body>
 </html>
